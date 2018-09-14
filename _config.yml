@@ -5,7 +5,7 @@
 # Site
 title: Improv Podcasts
 subtitle: 
-description:
+description: 
 author: Eric Patrick
 language: default
 timezone: America/New_York
@@ -64,17 +64,3 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-
-deploy:
-  type: ftpsync
-  host: <host>
-  user: <user>
-  pass: <password>
-  remote: [remote]
-  port: [port]
-  ignore: [ignore]
-  connections: [connections]
-  verbose: [true|false]
