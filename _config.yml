@@ -14,7 +14,7 @@ timezone: America/New_York
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://improvpodcasts.com
 root: /
-permalink: :year-:month-:day-:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -67,5 +67,14 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
-  type:
+  type: ftpsync
+  host: <host>
+  user: <user>
+  pass: <password>
+  remote: [remote]
+  port: [port]
+  ignore: [ignore]
+  connections: [connections]
+  verbose: [true|false]
